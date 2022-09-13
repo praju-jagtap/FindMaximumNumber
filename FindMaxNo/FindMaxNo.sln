@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxNo", "FindMaxNo.csproj", "{3702B7A2-6D1D-4535-86AD-A79D93AE6A3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMaxNo", "FindMaxNo.csproj", "{3702B7A2-6D1D-4535-86AD-A79D93AE6A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNoTest", "..\MaxNoTest\MaxNoTest.csproj", "{20BE54EB-6E34-4431-9B84-036893B05C68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3702B7A2-6D1D-4535-86AD-A79D93AE6A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3702B7A2-6D1D-4535-86AD-A79D93AE6A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3702B7A2-6D1D-4535-86AD-A79D93AE6A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BE54EB-6E34-4431-9B84-036893B05C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BE54EB-6E34-4431-9B84-036893B05C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BE54EB-6E34-4431-9B84-036893B05C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BE54EB-6E34-4431-9B84-036893B05C68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
