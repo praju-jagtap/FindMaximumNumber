@@ -46,6 +46,26 @@ namespace MaxNoTest
             float num = findMaxNo.FindMaxFloatNumber(1.1f, 2.1f, 3.1f);
             Assert.AreEqual(3.1f, num);
         }
-
+        [Test]
+        public void GivenMaxStringFirst_WhenAnalized_ShouldReturnMaxNumber()
+        {
+            MaxNo max = new MaxNo();
+            string num = max.FindMaxStringNumber("peach", "apple", "banana");
+            Assert.AreEqual("peach", num);
+        }
+        [Test]
+        public void GivenMaxStringSecond_WhenAnalized_ShouldReturnMaxNumber()
+        {
+            MaxNo max = new MaxNo();
+            string num = max.FindMaxStringNumber("apple", "peach", "banana");
+            Assert.AreEqual("peach", num);
+        }
+        [Test]
+        public void GivenMaxStringThird_WhenAnalized_ShouldReturnMaxNumber()
+        {
+            MaxNo max = new MaxNo();
+            string num = max.FindMaxStringNumber("apple", "banana", "peach");
+            Assert.AreEqual("peach", num);
+        }
     }
 }
