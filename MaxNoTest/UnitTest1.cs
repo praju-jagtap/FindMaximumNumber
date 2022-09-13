@@ -25,6 +25,27 @@ namespace MaxNoTest
             int num = findMaxNo.FindMaxIntNumber(1, 2, 3);
             Assert.AreEqual(3, num);
         }
+        [Test]
+        public void GivenMaxFloatFirstNumber_WhenAnalized_ShouldReturnMaxNumber()
+        {
+            MaxNo findMaxNo = new MaxNo();
+            float num = findMaxNo.FindMaxFloatNumber(3.1f, 1.1f, 2.1f);
+            Assert.AreEqual(3.1f, num);
+        }
+        [Test]
+        public void GivenMaxFloatSecondtNumber_WhenAnalized_ShouldReturnMaxNumber()
+        {
+            MaxNo findMaxNo = new MaxNo();
+            float num = findMaxNo.FindMaxFloatNumber(1.1f, 3.1f, 2.1f);
+            Assert.AreEqual(3.1f, num);
+        }
+        [Test]
+        public void GivenMaxFloatThirdNumber_WhenAnalized_ShouldReturnMaxNumber()
+        {
+            MaxNo findMaxNo = new MaxNo();
+            float num = findMaxNo.FindMaxFloatNumber(1.1f, 2.1f, 3.1f);
+            Assert.AreEqual(3.1f, num);
+        }
 
     }
 }
